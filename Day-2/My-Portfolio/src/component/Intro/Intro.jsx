@@ -4,7 +4,7 @@ import Bag from "../../Asset/Images/hire.png";
 const Intro = () => {
   return (
     <div>
-      <section id="intro" className=" ">
+      <section id="intro" >
         <div className="intro-writeup flex flex-col justify-center pt-[3rem] h-[100vh - 4rem] w-[100vw] max-w-[75rem] overflow-hidden my-0 mx-[5rem] relative ">
           <span className="font-[500]">Hello, </span>
 

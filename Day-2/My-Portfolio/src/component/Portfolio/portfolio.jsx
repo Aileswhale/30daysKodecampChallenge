@@ -9,7 +9,10 @@ import  "./portfolio.css"
 function Portfolio() {
   return (
     <>
-      <section className="portfolio max-w-[95%] min-h-[90vh] w-[100vw] flex flex-col items-center justify-center mx-[auto] my-0 text-center px-[1rem]">
+      <section
+        id="portfolio "
+        className="max-w-[95%] min-h-[90vh] w-[100vw] flex flex-col items-center justify-center mx-[auto] my-0 text-center px-[1rem]"
+      >
         <h2 className="my-[1rem] text-[3rem]">My Portfolio</h2>
         <p className="description font-[300] text-[1rem] text-left max-w-[75%] mb-[3rem]">
           In my journey as a web developer, I have meticulously crafted a
@@ -55,8 +58,11 @@ function Portfolio() {
             src={country}
             alt="portfolio"
           />
-              </div>
-              <button className=" py-[0.5rem] px-[2.5rem] rounded-[2rem] my-[3rem] bg-white text-black"> See more</button>
+        </div>
+        <button className=" py-[0.5rem] px-[2.5rem] rounded-[2rem] my-[3rem] bg-white text-black">
+          {" "}
+          See more
+        </button>
       </section>
     </>
   );

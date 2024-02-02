@@ -1,7 +1,7 @@
 const About = () => {
   return (
     <>
-      <section className="about overflow-hidden w-[100vw] max-w[65rem] flex flex-col items-center justify-center text-center mt-[15%] mx-[auto]">
+      <section id="about" className="overflow-hidden w-[100vw] max-w[65rem] flex flex-col items-center justify-center text-center mt-[15%] mx-[auto]">
         <h1 className="text-[3rem] font-[600] pt-[3rem] mb-[1.5rem]">
           What I do
         </h1>

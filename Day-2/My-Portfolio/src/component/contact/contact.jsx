@@ -1,11 +1,11 @@
-import {FaFacebook, FaInstagram, FaLinkedin, FaTwitter, FaWhatsapp, FaYoutube } from "react-icons/fa";
+import {FaFacebook, FaInstagram, FaLinkedin, FaTwitter, FaWhatsapp, } from "react-icons/fa";
 
 const Contact = () => {
   return (
     <>
       <section className="client"></section>
 
-      <section className="contact max-w-[95%] min-h-[90vh] w-[100vw] mx-[auto] my-0 text-center px-[1rem]">
+      <section id="contact" className="max-w-[95%] min-h-[90vh] w-[100vw] mx-[auto] my-0 text-center px-[1rem]">
         <h1 className="font-[600] text-[2rem] my-[1.5rem] "> Contact Me</h1>
         <p className="font-[200] mb-[1.2rem]">
           Please fill the form below to discusss any work opportunity
