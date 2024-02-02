@@ -5,7 +5,7 @@ const Contact = () => {
     <>
       <section className="client"></section>
 
-      <section className="contact">
+      <section className="contact max-w-[95%] min-h-[90vh] w-[100vw] flex flex-col items-center justify-center mx-[auto] my-0 text-center px-[1rem]">
         <h1> Contact Me</h1>
         <p>Please fill the form below to discusss any work opportunity</p>
         <form className="flex flex-col" action="">
