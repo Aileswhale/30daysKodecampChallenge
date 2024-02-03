@@ -4,13 +4,12 @@ import Ecommerce from "../../Asset/Images/ecommerce.jpg";
 import time from "../../Asset/Images/time.jpg";
 import travel from "../../Asset/Images/travel.jpg";
 import weather from "../../Asset/Images/weather.jpg";
-import  "./portfolio.css"
 
 function Portfolio() {
   return (
     <>
       <section
-        id="portfolio "
+        id="portfolio"
         className="max-w-[95%] min-h-[90vh] w-[100vw] flex flex-col items-center justify-center mx-[auto] my-0 text-center px-[1rem]"
       >
         <h2 className="my-[1rem] text-[3rem]">My Portfolio</h2>
