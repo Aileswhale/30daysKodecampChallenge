@@ -11,7 +11,7 @@ function Portfolio() {
     <>
       <section
         id="portfolio"
-        className="max-w-[95%] min-h-[90vh] w-[100vw] flex flex-col items-center justify-center mx-[auto] my-0 text-center px-[1rem]"
+        className="max-w-[95%] min-h-[90vh] w-[100vw] flex flex-col mx-[auto] my-0 text-center px-[1rem]"
       >
         <h2 className="my-[1rem] text-[3rem]">My Portfolio</h2>
         <p className="description font-[300] text-[1rem] text-left max-w-[75%] mb-[3rem]">
@@ -27,10 +27,10 @@ function Portfolio() {
           craft, where every line of code weaves a story of innovation and
           creativity.
         </p>
-        <div className="portfolioimg flex flex-wrap justify-center w-[70%] ">
+        <div className="portfolioimg ">
           <div className="expwork">
             <img
-              className="object-center h-[15rem]  rounded  m-[0.5rem]"
+              className=""
               src={weather}
               alt="portfolio"
             />
@@ -46,7 +46,7 @@ function Portfolio() {
 
           <div className="expwork">
             <img
-              className="object-center h-[15rem]   rounded  m-[0.5rem]"
+              className=""
               src={country}
               alt="portfolio"
             />
@@ -62,7 +62,7 @@ function Portfolio() {
 
           <div className="expwork">
             <img
-              className="object-center h-[15rem]   rounded  m-[0.5rem]"
+              className=""
               src={time}
               alt="portfolio"
             />

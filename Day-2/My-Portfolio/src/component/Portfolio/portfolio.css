@@ -9,11 +9,12 @@
     position: relative;
     overflow: hidden;
     height: 200px;
+    aspect-ratio: 1;
 }
 .expwork img{
     width: 100%;
     border-radius: 10px;
-    display: block;
+    display: flex;
     transition: transform 0.5s;
 }
 .expwork:hover img{
