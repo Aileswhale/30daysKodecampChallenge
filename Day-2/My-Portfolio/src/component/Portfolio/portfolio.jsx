@@ -45,12 +45,13 @@ function Portfolio() {
           <div className="expwork">
             <img className="" src={country} alt="portfolio" />
             <div className="layer">
-              <h3>Weather App</h3>
+              <h3> COuntry App</h3>
               <p>
-                This website is a site that shows the weather condition of your
-                location and any country.{" "}
+                This website displays the details about the countrys in the world .
               </p>
-              <a href="https://aileswhale.github.io/weather-App/">Learn more</a>
+              <a href="https://aileswhale.github.io/Intermediate-task/">
+                Learn more
+              </a>
             </div>
           </div>
 
@@ -67,11 +68,7 @@ function Portfolio() {
           </div>
 
           <div className="expwork">
-            <img
-              className=""
-              src={calculator}
-              alt="portfolio"
-            />
+            <img className="" src={calculator} alt="portfolio" />
             <div className="layer">
               <h3>Weather App</h3>
               <p>
@@ -83,11 +80,7 @@ function Portfolio() {
           </div>
 
           <div className="expwork">
-            <img
-              className=""
-              src={travel}
-              alt="portfolio"
-            />
+            <img className="" src={travel} alt="portfolio" />
             <div className="layer">
               <h3>Weather App</h3>
               <p>
@@ -99,11 +92,7 @@ function Portfolio() {
           </div>
 
           <div className="expwork">
-            <img
-              className=""
-              src={Ecommerce}
-              alt="portfolio"
-            />
+            <img className="" src={Ecommerce} alt="portfolio" />
             <div className="layer">
               <h3>Weather App</h3>
               <p>
@@ -114,9 +103,7 @@ function Portfolio() {
             </div>
           </div>
         </div>
-        <button className=" btn">
-          See more
-        </button>
+        <button className=" btn">See more</button>
       </section>
     </>
   );
