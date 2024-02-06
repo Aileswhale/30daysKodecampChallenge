@@ -27,11 +27,21 @@ function Portfolio() {
           creativity.
         </p>
         <div className="portfolioimg flex flex-wrap justify-center w-[70%] ">
-          <img
-            className="object-center h-[15rem]  rounded w-1/4 m-[0.5rem]"
-            src={weather}
-            alt="portfolio"
-          />
+          <div className="expwork">
+            <img
+              className="object-center h-[15rem]  rounded w-1/4 m-[0.5rem]"
+              src={weather}
+              alt="portfolio"
+            />
+            <div className="layer">
+              <h3>Weather App</h3>
+              <p>This website is a site that shows the weather condition of your location and any country. </p>
+              <a href="#">
+                Learn more
+              </a>
+            </div>
+          </div>
+
           <img
             className="object-center h-[15rem] rounded w-1/4 m-[0.5rem]"
             src={Ecommerce}
