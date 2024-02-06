@@ -4,7 +4,7 @@ import Ecommerce from "../../Asset/Images/ecommerce.jpg";
 import time from "../../Asset/Images/time.jpg";
 import travel from "../../Asset/Images/travel.jpg";
 import weather from "../../Asset/Images/weather.jpg";
-import "./portfolio.css"
+import "./portfolio.css";
 
 function Portfolio() {
   return (
@@ -36,38 +36,93 @@ function Portfolio() {
             />
             <div className="layer">
               <h3>Weather App</h3>
-              <p>This website is a site that shows the weather condition of your location and any country. </p>
-              <a href="https://aileswhale.github.io/weather-App/">
-                Learn more
-              </a>
+              <p>
+                This website is a site that shows the weather condition of your
+                location and any country.{" "}
+              </p>
+              <a href="https://aileswhale.github.io/weather-App/">Learn more</a>
             </div>
           </div>
 
-          <img
-            className="object-center h-[15rem] rounded  m-[0.5rem]"
-            src={Ecommerce}
-            alt="portfolio"
-          />
-          <img
-            className="object-center h-[15rem] rounded m-[0.5rem]"
-            src={travel}
-            alt="portfolio"
-          />
-          <img
-            className="object-center h-[15rem]  rounded  m-[0.5rem]"
-            src={calculator}
-            alt="portfolio"
-          />
-          <img
-            className="object-center h-[15rem]   rounded  m-[0.5rem]"
-            src={time}
-            alt="portfolio"
-          />
-          <img
-            className="object-center h-[15rem]   rounded  m-[0.5rem]"
-            src={country}
-            alt="portfolio"
-          />
+          <div className="expwork">
+            <img
+              className="object-center h-[15rem]   rounded  m-[0.5rem]"
+              src={country}
+              alt="portfolio"
+            />
+            <div className="layer">
+              <h3>Weather App</h3>
+              <p>
+                This website is a site that shows the weather condition of your
+                location and any country.{" "}
+              </p>
+              <a href="https://aileswhale.github.io/weather-App/">Learn more</a>
+            </div>
+          </div>
+
+          <div className="expwork">
+            <img
+              className="object-center h-[15rem]   rounded  m-[0.5rem]"
+              src={time}
+              alt="portfolio"
+            />
+            <div className="layer">
+              <h3>Weather App</h3>
+              <p>
+                This website is a site that shows the weather condition of your
+                location and any country.{" "}
+              </p>
+              <a href="https://aileswhale.github.io/weather-App/">Learn more</a>
+            </div>
+          </div>
+
+          <div className="expwork">
+            <img
+              className="object-center h-[15rem]  rounded  m-[0.5rem]"
+              src={calculator}
+              alt="portfolio"
+            />
+            <div className="layer">
+              <h3>Weather App</h3>
+              <p>
+                This website is a site that shows the weather condition of your
+                location and any country.{" "}
+              </p>
+              <a href="https://aileswhale.github.io/weather-App/">Learn more</a>
+            </div>
+          </div>
+
+          <div className="expwork">
+            <img
+              className="object-center h-[15rem] rounded m-[0.5rem]"
+              src={travel}
+              alt="portfolio"
+            />
+            <div className="layer">
+              <h3>Weather App</h3>
+              <p>
+                This website is a site that shows the weather condition of your
+                location and any country.{" "}
+              </p>
+              <a href="https://aileswhale.github.io/weather-App/">Learn more</a>
+            </div>
+          </div>
+
+          <div className="expwork">
+            <img
+              className="object-center h-[15rem] rounded  m-[0.5rem]"
+              src={Ecommerce}
+              alt="portfolio"
+            />
+            <div className="layer">
+              <h3>Weather App</h3>
+              <p>
+                This website is a site that shows the weather condition of your
+                location and any country.{" "}
+              </p>
+              <a href="https://aileswhale.github.io/weather-App/">Learn more</a>
+            </div>
+          </div>
         </div>
         <button className=" py-[0.5rem] px-[2.5rem] rounded-[2rem] my-[3rem] bg-white text-black">
           {" "}
