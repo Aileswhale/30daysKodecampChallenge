@@ -45,7 +45,7 @@ function Portfolio() {
           <div className="expwork">
             <img className="" src={country} alt="portfolio" />
             <div className="layer">
-              <h3> COuntry App</h3>
+              <h3> Country App</h3>
               <p>
                 This website displays the details about the countrys in the
                 world .
