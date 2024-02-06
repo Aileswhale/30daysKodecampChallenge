@@ -36,7 +36,7 @@ function Portfolio() {
               <h3>Weather App</h3>
               <p>
                 This website is a site that shows the weather condition of your
-                location and any country.{" "}
+                location and any country.
               </p>
               <a href="https://aileswhale.github.io/weather-App/">Learn more</a>
             </div>
@@ -55,12 +55,12 @@ function Portfolio() {
           </div>
 
           <div className="expwork">
-            <img className="" src={time} alt="portfolio" />
+            <img className="object-fill" src={time} alt="portfolio" />
             <div className="layer">
               <h3>Weather App</h3>
               <p>
                 This website is a site that shows the weather condition of your
-                location and any country.{" "}
+                location and any country.
               </p>
               <a href="https://aileswhale.github.io/weather-App/">Learn more</a>
             </div>
@@ -68,7 +68,7 @@ function Portfolio() {
 
           <div className="expwork">
             <img
-              className="object-center h-[15rem]  rounded  m-[0.5rem]"
+              className=""
               src={calculator}
               alt="portfolio"
             />
@@ -84,7 +84,7 @@ function Portfolio() {
 
           <div className="expwork">
             <img
-              className="object-center h-[15rem] rounded m-[0.5rem]"
+              className=""
               src={travel}
               alt="portfolio"
             />
@@ -100,7 +100,7 @@ function Portfolio() {
 
           <div className="expwork">
             <img
-              className="object-center h-[15rem] rounded  m-[0.5rem]"
+              className=""
               src={Ecommerce}
               alt="portfolio"
             />
@@ -114,7 +114,7 @@ function Portfolio() {
             </div>
           </div>
         </div>
-        <button className=" w-[10rem] m-[auto] py-[0.5rem] px-[2.5rem] rounded-[2rem] my-[3rem] bg-white text-black">
+        <button className=" btn">
           See more
         </button>
       </section>

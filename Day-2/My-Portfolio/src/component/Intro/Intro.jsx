@@ -1,5 +1,5 @@
 import pic from "../../Asset/Images/Pic.png";
-import Bag from "../../Asset/Images/hire.png";
+import {FaSuitcase} from "react-icons/fa";
 
 const Intro = () => {
   return (
@@ -21,7 +21,7 @@ const Intro = () => {
           </p>
           <div>
             <button className="bg-white text-black  gap-[1rem] rounded-[2rem] px-[1.5rem] py-[1rem] flex items-center justify-center mt-[3rem]">
-              <img className="w-[2rem] object-cover" src={Bag} alt="hire" />{" "}
+             <FaSuitcase className="text-[2rem]"/>
               Hire Me
             </button>
           </div>
