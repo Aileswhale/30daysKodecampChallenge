@@ -4,6 +4,7 @@ import Ecommerce from "../../Asset/Images/ecommerce.jpg";
 import time from "../../Asset/Images/time.jpg";
 import travel from "../../Asset/Images/travel.jpg";
 import weather from "../../Asset/Images/weather.jpg";
+import "./portfolio.css"
 
 function Portfolio() {
   return (
@@ -29,41 +30,41 @@ function Portfolio() {
         <div className="portfolioimg flex flex-wrap justify-center w-[70%] ">
           <div className="expwork">
             <img
-              className="object-center h-[15rem]  rounded w-1/4 m-[0.5rem]"
+              className="object-center h-[15rem]  rounded  m-[0.5rem]"
               src={weather}
               alt="portfolio"
             />
             <div className="layer">
               <h3>Weather App</h3>
               <p>This website is a site that shows the weather condition of your location and any country. </p>
-              <a href="#">
+              <a href="https://aileswhale.github.io/weather-App/">
                 Learn more
               </a>
             </div>
           </div>
 
           <img
-            className="object-center h-[15rem] rounded w-1/4 m-[0.5rem]"
+            className="object-center h-[15rem] rounded  m-[0.5rem]"
             src={Ecommerce}
             alt="portfolio"
           />
           <img
-            className="object-center h-[15rem] rounded w-1/4 m-[0.5rem]"
+            className="object-center h-[15rem] rounded m-[0.5rem]"
             src={travel}
             alt="portfolio"
           />
           <img
-            className="object-center h-[15rem]  rounded w-1/4 m-[0.5rem]"
+            className="object-center h-[15rem]  rounded  m-[0.5rem]"
             src={calculator}
             alt="portfolio"
           />
           <img
-            className="object-center h-[15rem]   rounded w-1/4 m-[0.5rem]"
+            className="object-center h-[15rem]   rounded  m-[0.5rem]"
             src={time}
             alt="portfolio"
           />
           <img
-            className="object-center h-[15rem]   rounded w-1/4 m-[0.5rem]"
+            className="object-center h-[15rem]   rounded  m-[0.5rem]"
             src={country}
             alt="portfolio"
           />
