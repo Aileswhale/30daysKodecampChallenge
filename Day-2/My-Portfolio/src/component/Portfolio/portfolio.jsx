@@ -47,7 +47,8 @@ function Portfolio() {
             <div className="layer">
               <h3> COuntry App</h3>
               <p>
-                This website displays the details about the countrys in the world .
+                This website displays the details about the countrys in the
+                world .
               </p>
               <a href="https://aileswhale.github.io/Intermediate-task/">
                 Learn more
@@ -58,48 +59,50 @@ function Portfolio() {
           <div className="expwork">
             <img className="object-fill" src={time} alt="portfolio" />
             <div className="layer">
-              <h3>Weather App</h3>
+              <h3>Clock App</h3>
               <p>
-                This website is a site that shows the weather condition of your
-                location and any country.
+                This website is a site that shows the curent time of your
+                location.
               </p>
-              <a href="https://aileswhale.github.io/weather-App/">Learn more</a>
+              <a href="https://aileswhale.github.io/clock/">Learn more</a>
             </div>
           </div>
 
           <div className="expwork">
             <img className="" src={calculator} alt="portfolio" />
             <div className="layer">
-              <h3>Weather App</h3>
+              <h3>Calculator App</h3>
               <p>
-                This website is a site that shows the weather condition of your
-                location and any country.{" "}
+                This webapp is a digital culculator built with vanilla
+                javascript.
               </p>
-              <a href="https://aileswhale.github.io/weather-App/">Learn more</a>
+              <a href="https://aileswhale.github.io/Calculator/">Learn more</a>
             </div>
           </div>
 
           <div className="expwork">
             <img className="" src={travel} alt="portfolio" />
             <div className="layer">
-              <h3>Weather App</h3>
-              <p>
-                This website is a site that shows the weather condition of your
-                location and any country.{" "}
-              </p>
-              <a href="https://aileswhale.github.io/weather-App/">Learn more</a>
+              <h3>Travel Journal App</h3>
+              <p>This website is a site that keeps track of places visited.</p>
+              <a href="https://aileswhale.github.io/my-travel-journal/">
+                Learn more
+              </a>
             </div>
           </div>
 
           <div className="expwork">
             <img className="" src={Ecommerce} alt="portfolio" />
             <div className="layer">
-              <h3>Weather App</h3>
+              <h3>Ecommerce App</h3>
               <p>
-                This website is a site that shows the weather condition of your
-                location and any country.{" "}
+                This webapp is an ecommerce app that displays wares and enable
+                users to add items to cart, have an account by signing in and
+                logging in .
               </p>
-              <a href="https://aileswhale.github.io/weather-App/">Learn more</a>
+              <a href="https://aileswhale.github.io/kodecamp-ecommerce/">
+                Learn more
+              </a>
             </div>
           </div>
         </div>
